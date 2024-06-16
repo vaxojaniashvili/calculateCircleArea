@@ -1,5 +1,5 @@
 "use strict";
-// გადავწეროთ მოცემული ფაილი typescript_ზე.
+Object.defineProperty(exports, "__esModule", { value: true });
 function calculateRectangleArea(rectangle) {
     return rectangle.width * rectangle.height;
 }
@@ -12,7 +12,6 @@ function calculateCircleArea(circle) {
 function calculateCirclePerimeter(circle) {
     return 2 * Math.PI * circle.radius;
 }
-// Independent Functions
 function addNumbers(a, b) {
     return a + b;
 }
@@ -41,8 +40,6 @@ function calculateFactorial(n) {
         return n * calculateFactorial(n - 1);
     }
 }
-// Test Cases
-// სასურველია გავაკეთოთ Rectangle და Circle კლაზები და დავუმატოთ შესაბამისი მეთოდები.
 const rectangle = { width: 5, height: 8 };
 const circle = { radius: 3 };
 const rectangleArea = calculateRectangleArea(rectangle);
